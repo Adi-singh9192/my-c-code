@@ -18,10 +18,11 @@ int main()
 
     beg = 0;
     end = num - 1;
-    mid = (beg + end) / 2;
+    // mid = (beg + end) / 2;
 
     while (beg <= end)
     {
+        mid = (beg + end) / 2;
 
         if (arr[mid] == val)
         {
@@ -31,8 +32,9 @@ int main()
         else if (arr[mid] > val)
             beg = mid - 1;
         else
+        {
             beg = mid + 1;
-
+        }
         if (end < beg)
         {
             printf("%d is not found", val);
