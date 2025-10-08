@@ -2,5 +2,7 @@
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "XYZ.C": "cpp"
-    }
+    },
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on"
 }
